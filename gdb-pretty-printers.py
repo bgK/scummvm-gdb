@@ -25,7 +25,7 @@ class CommonArrayPrinter:
         def __iter__(self):
             return self
 
-        def next(self):
+        def __next__(self):
             count = self.count
             self.count += 1
             if self.count > self.size:
@@ -62,7 +62,7 @@ class MathVector3dPrinter:
         def __iter__(self):
             return self
 
-        def next(self):
+        def __next__(self):
             count = self.count
             self.count += 1
             if self.count > self.size:

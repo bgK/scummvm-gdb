@@ -2,5 +2,5 @@
 Pretty printers for ScummVM's 'Common' types
 
 # Requirements
-* Python 2
+* Python 3
 * Recent GDB
