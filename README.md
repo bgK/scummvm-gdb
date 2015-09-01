@@ -1,11 +1,11 @@
 # ScummVM - GDB
 Pretty printers for ScummVM's 'Common' types
 
-# Requirements
+## Requirements
 * Python 3
 * Recent GDB
 
-# Usage
+## Usage
 1. Create a .gdbinit file in the directory where the ScummVM-ish executable you want to debug is located to instruct GDB to load the pretty printer script:
 
     source /path/to/scummvm-gdb/gdb-pretty-printers.py
